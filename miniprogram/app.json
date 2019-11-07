@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/profile/profile",
+    "pages/comment/comment"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ca2100",
+    "navigationBarTitleText": "兮兮爱movie",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#ca2100",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "电影",
+        "iconPath": "images/film.png",
+        "selectedIconPath": "images/film-actived.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap38.json"
+}

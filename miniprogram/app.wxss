@@ -1,0 +1,4 @@
+page {
+  font-family:"PingFangSC-Thin";
+   font-size:30rpx;          /*微信小程序中，使用rpx做单位*/
+}
